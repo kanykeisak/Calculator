@@ -181,6 +181,7 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Dark.Gray.Button"
+                android:onClick="onNumberClick"
                 android:layout_width="178dp"
                 android:paddingStart="34dp"
                 android:text="0"
@@ -194,7 +195,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_equal"
                 style="@style/Orange.Button"
-                android:onClick="onEqualClick"
+                android:onClick="onOperationClick"
                 android:text="=" />
 
             </LinearLayout>
